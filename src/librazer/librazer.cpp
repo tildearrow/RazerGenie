@@ -1364,7 +1364,7 @@ bool QDBusMessageToVoid(const QDBusMessage &message)
 }
 
 // Main method for testing / playing.
-int main()
+void main2()
 {
     qDebug() << "Daemon running:" << librazer::isDaemonRunning();
     qDebug() << "Daemon version:" << librazer::getDaemonVersion();
